@@ -41,7 +41,7 @@ Depending on what you are looking for you have a few options!
 ### Upgrade #2: I want to remove the Algolia logo.
 
 This would disqualify you from the free DocSearch program. We do offer an open-source
-[legacy version](https://docsearch.algolia.com/docs/legacy/run-your-own) of the DocSearch Crawler that you can use and
+[legacy version](https://docsearch.algolia.com/docs/run-your-own) of the DocSearch Crawler that you can use and
 host yourself or you can use our [API clients](https://www.algolia.com/doc/api-client/getting-started/install/javascript/?client=javascript) but you will need to use a new Algolia application and pay for its usage.
 
 ### Upgrade #3: Algolia is awesome, I want to use it for my whole site!
@@ -129,4 +129,4 @@ For any issue related to [the DocSearch UI library](https://github.com/algolia/d
 
 [1]: mailto:docsearch@algolia.com
 [2]: https://www.algolia.com/
-[3]: /docs/legacy/run-your-own
+[3]: /docs/run-your-own

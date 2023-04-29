@@ -12,10 +12,10 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
     url: 'https://docsearch.algolia.com',
     baseUrl: '/',
     favicon: 'img/favicon.ico',
-    organizationName: 'Algolia',
-    projectName: 'DocSearch',
-    onBrokenLinks: 'throw',
-    onBrokenMarkdownLinks: 'throw',
+    organizationName: 'SanMu',
+    projectName: 'SanMuBlog',
+    // onBrokenLinks: 'throw',
+    // onBrokenMarkdownLinks: 'throw',
     presets: [
       [
         '@docusaurus/preset-classic',

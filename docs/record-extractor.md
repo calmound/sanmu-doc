@@ -230,7 +230,7 @@ If you encounter the `Extractors returned too many records` error when your page
 
 ### Reduce the record size
 
-If you encounter the `Records extracted are too big` error when crawling your website, it's mostly because there was too many informations in your records, or that your page is too big. The [`recordVersion`](#recordversion) option helps you reducing the records size by removing informations that are only used with [DocSearch v2](/docs/legacy/dropdown).
+If you encounter the `Records extracted are too big` error when crawling your website, it's mostly because there was too many informations in your records, or that your page is too big. The [`recordVersion`](#recordversion) option helps you reducing the records size by removing informations that are only used with [DocSearch v2](/docs/dropdown).
 
 ```js
 {
@@ -311,7 +311,7 @@ Custom variables are used to [`filter your search`](/docs/DocSearch-v3#filtering
 
 > `type: 'v3' | 'v2'` | default: `v2` | **optional**
 
-This option remove content from the Algolia records that are only used for [DocSearch v2](/docs/legacy/dropdown). If you are using [the latest version of DocSearch](/docs/DocSearch-v3), you can [set it to `v3`](#reduce-the-record-size).
+This option remove content from the Algolia records that are only used for [DocSearch v2](/docs/dropdown). If you are using [the latest version of DocSearch](/docs/DocSearch-v3), you can [set it to `v3`](#reduce-the-record-size).
 
 ### `indexHeadings`
 
@@ -325,9 +325,9 @@ This option tells the crawler if the `headings` (`lvlX`) should be indexed.
 [1]: /docs/DocSearch-v3
 [2]: https://github.com/algolia/docsearch/
 [3]: https://github.com/algolia/docsearch/tree/master
-[4]: /docs/legacy/dropdown
+[4]: /docs/dropdown
 [5]: /docs/migrating-from-legacy
-[6]: /docs/legacy/run-your-own
+[6]: /docs/run-your-own
 [7]: https://www.algolia.com/doc/tools/crawler/getting-started/overview/
 [8]: https://www.algolia.com/products/search-and-discovery/crawler/
 [9]: https://www.algolia.com/doc/tools/crawler/apis/configuration/actions/#parameter-param-recordextractor

@@ -46,41 +46,20 @@ You can find answers related to the DocSearch migration in our [Crawler FAQ page
 
 Below are the keys that can be found in the [`legacy` DocSearch configs][14] and their translation to an [Algolia Crawler config][16]. More detailed documentation of the Algolia Crawler can be found on the [the official documentation][15]
 
-| `legacy` | `current` | description |
-| --- | --- | --- |
-| `start_urls` | [`startUrls`][20] | Now accepts URLs only, see [`helpers.docsearch`][30] to handle custom variables |
-| `page_rank` | [`pageRank`][31] | Can be added to the `recordProps` in [`helpers.docsearch`][30], should be passed as a **string** |
-| `js_render` | [`renderJavaScript`][21] | Unchanged |
-| `js_wait` | [`renderJavascript.waitTime`][22] | See documentation of [`renderJavaScript`][21] |
-| `index_name` | **removed**, see [`actions`][23] | Handled directly in the [`actions`][23] |
-| `sitemap_urls` | [`sitemaps`][24] | Unchanged |
-| `stop_urls` | [`exclusionPatterns`][25] | Supports [`micromatch`][27] |
-| `selectors_exclude` | **removed** | Should be handled in the [`recordExtractor`][28] and [`helpers.docsearch`][29] |
-| `custom_settings` | [`initialIndexSettings`][26] | Unchanged |
-| `scrape_start_urls` | **removed** | Can be handled with [`exclusionPatterns`][25] |
-| `strip_chars` | **removed** | `#` are removed automatically from anchor links, edge cases should be handled in the [`recordExtractor`][28] and [`helpers.docsearch`][29] |
-| `conversation_id` | **removed** | Not needed anymore |
-| `nb_hits` | **removed** | Not needed anymore |
-| `sitemap_alternate_links` | **removed** | Not needed anymore |
-| `stop_content` | **removed** | Should be handled in the [`recordExtractor`][28] and [`helpers.docsearch`][29] |
-
-[1]: /docs/DocSearch-v3
-[2]: https://www.algolia.com/products/search-and-discovery/crawler/
-[3]: /docs/legacy/run-your-own
-[4]: /docs/record-extractor
-[7]: https://crawler.algolia.com/
-[14]: /docs/legacy/config-file
-[15]: https://www.algolia.com/doc/tools/crawler/getting-started/overview/
-[16]: https://www.algolia.com/doc/tools/crawler/apis/configuration/
-[20]: https://www.algolia.com/doc/tools/crawler/apis/configuration/start-urls/
-[21]: https://www.algolia.com/doc/tools/crawler/apis/configuration/render-java-script/
-[22]: https://www.algolia.com/doc/tools/crawler/apis/configuration/render-java-script/#parameter-param-waittime
-[23]: https://www.algolia.com/doc/tools/crawler/apis/configuration/actions/#parameter-param-indexname
-[24]: https://www.algolia.com/doc/tools/crawler/apis/configuration/sitemaps/
-[25]: https://www.algolia.com/doc/tools/crawler/apis/configuration/exclusion-patterns/
-[26]: https://www.algolia.com/doc/tools/crawler/apis/configuration/initial-index-settings/
-[27]: https://github.com/micromatch/micromatch
-[28]: https://www.algolia.com/doc/tools/crawler/apis/configuration/actions/#parameter-param-recordextractor
-[29]: /docs/record-extractor
-[30]: /docs/record-extractor#introduction
-[31]: /docs/record-extractor#pagerank
+| `legacy`                  | `current`                         | description                                                                                                                                |
+| ------------------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| `start_urls`              | [`startUrls`][20]                 | Now accepts URLs only, see [`helpers.docsearch`][30] to handle custom variables                                                            |
+| `page_rank`               | [`pageRank`][31]                  | Can be added to the `recordProps` in [`helpers.docsearch`][30], should be passed as a **string**                                           |
+| `js_render`               | [`renderJavaScript`][21]          | Unchanged                                                                                                                                  |
+| `js_wait`                 | [`renderJavascript.waitTime`][22] | See documentation of [`renderJavaScript`][21]                                                                                              |
+| `index_name`              | **removed**, see [`actions`][23]  | Handled directly in the [`actions`][23]                                                                                                    |
+| `sitemap_urls`            | [`sitemaps`][24]                  | Unchanged                                                                                                                                  |
+| `stop_urls`               | [`exclusionPatterns`][25]         | Supports [`micromatch`][27]                                                                                                                |
+| `selectors_exclude`       | **removed**                       | Should be handled in the [`recordExtractor`][28] and [`helpers.docsearch`][29]                                                             |
+| `custom_settings`         | [`initialIndexSettings`][26]      | Unchanged                                                                                                                                  |
+| `scrape_start_urls`       | **removed**                       | Can be handled with [`exclusionPatterns`][25]                                                                                              |
+| `strip_chars`             | **removed**                       | `#` are removed automatically from anchor links, edge cases should be handled in the [`recordExtractor`][28] and [`helpers.docsearch`][29] |
+| `conversation_id`         | **removed**                       | Not needed anymore                                                                                                                         |
+| `nb_hits`                 | **removed**                       | Not needed anymore                                                                                                                         |
+| `sitemap_alternate_links` | **removed**                       | Not needed anymore                                                                                                                         |
+| `stop_content`            | **removed**                       | Should be handled in the [`recordExtractor`][28] and [`helpers.docsearch`][29]                                                             |
