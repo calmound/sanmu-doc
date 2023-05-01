@@ -14,12 +14,20 @@ module.exports = {
     {
       type: 'category',
       label: 'Vue入门系列',
-      items: ['vue/01 环境搭建', 'vue/02 模版语法', 'vue/03 条件渲染和列表渲染', 'vue/04 事件处理和表单绑定', 'vue/05 组件'],
+      items: [
+        'vue/01 环境搭建',
+        'vue/02 模版语法',
+        'vue/03 条件渲染和列表渲染',
+        'vue/04 事件处理和表单绑定',
+        'vue/05 组件',
+        'vue/vue-router4基础知识梳理',
+        'vue/10分钟带你入门pinia',
+      ],
     },
     {
       type: 'category',
       label: 'Vue原理系列',
-      items: ['DocSearch-v3', 'api', 'styling', 'migrating-from-v2'],
+      items: ['vue-advance/如何调试vue源码'],
     },
     {
       type: 'category',

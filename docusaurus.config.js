@@ -6,12 +6,12 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (
   module.exports = {
-    title: '三木博客',
+    title: '三木',
     tagline:
-      'The best search experience for docs, integrated in minutes, for free.',
-    url: 'https://docsearch.algolia.com',
+      '三木技术分享',
+    url: 'https://sanmustudy.cn',
     baseUrl: '/',
-    favicon: 'img/favicon.ico',
+    // favicon: 'img/favicon.ico',
     organizationName: 'SanMu',
     projectName: 'SanMuBlog',
     // onBrokenLinks: 'throw',
@@ -59,11 +59,12 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
         ],
         navbar: {
           hideOnScroll: true,
-          logo: {
-            alt: 'DocSearch',
-            src: 'img/docsearch-logo.svg',
-            srcDark: 'img/docsearch-logo-white.svg',
-          },
+          title: "三木",
+          // logo: {
+          //   alt: '三木',
+          //   src: 'img/docsearch-logo.svg',
+          //   srcDark: 'img/docsearch-logo-white.svg',
+          // },
           items: [
             // left
             {
@@ -77,10 +78,10 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
               position: 'right',
             },
             // right
-            {
-              type: 'docsVersionDropdown',
-              position: 'right',
-            },
+            // {
+            //   type: 'docsVersionDropdown',
+            //   position: 'right',
+            // },
             {
               href: 'https://github.com/algolia/docsearch',
               position: 'right',
