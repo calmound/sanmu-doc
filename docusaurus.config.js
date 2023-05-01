@@ -11,7 +11,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
       '三木技术分享',
     url: 'https://sanmustudy.cn',
     baseUrl: '/',
-    // favicon: 'img/favicon.ico',
+    favicon: 'img/logo.png',
     organizationName: 'SanMu',
     projectName: 'SanMuBlog',
     // onBrokenLinks: 'throw',
@@ -25,7 +25,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
             path: 'docs',
             sidebarPath: 'sidebars.js',
             editUrl:
-              'https://github.com/algolia/docsearch/edit/main/packages/website/',
+              'https://github.com/calmound/sanmu-blog',
             // versions: {
             //   current: {
             //     label: 'current',
@@ -59,10 +59,10 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
         ],
         navbar: {
           hideOnScroll: true,
-          title: "三木",
+          title: "三木小站",
           // logo: {
           //   alt: '三木',
-          //   src: 'img/docsearch-logo.svg',
+          //   src: 'img/logo.png',
           //   srcDark: 'img/docsearch-logo-white.svg',
           // },
           items: [
@@ -174,7 +174,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
         //   },
         //   copyright: 'DocSearch 2015-now • Designed and built by Algolia',
         // },
-        image: 'img/og_image.png',
+        // image: 'img/og_image.png',
         prism: {
           theme: lightCodeTheme,
           darkTheme: darkCodeTheme,

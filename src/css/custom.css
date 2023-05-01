@@ -56,6 +56,11 @@ html[data-theme='dark'] {
   --ifm-menu-color-background-active: #21243d;
 }
 
+.navbar__brand {
+  color: #45a3f1;
+  font-size: 24px;
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;

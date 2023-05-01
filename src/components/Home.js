@@ -111,7 +111,7 @@ function Home() {
           {/*Personal Intro */}
           <Grid item xs={12} lg={6} className="homeIntro">
             <animated.div style={animatedTexts[0]}>
-              <Typography variant="h2" gutterBottom>
+              <Typography variant="h3" gutterBottom>
                 你好! 我是
                 <span className="intro__name"> {siteConfig.title}</span>
                 {/* <Typography variant="body2">

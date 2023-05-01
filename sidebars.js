@@ -29,34 +29,34 @@ module.exports = {
       label: 'Vue原理系列',
       items: ['vue-advance/如何调试vue源码'],
     },
-    {
-      type: 'category',
-      label: 'React入门系列',
-      items: ['record-extractor', 'templates', 'manage-your-crawls'],
-    },
-    {
-      type: 'category',
-      label: 'Requirements, tips, FAQ',
-      items: [
-        {
-          type: 'category',
-          label: 'FAQ',
-          items: ['crawler', 'DocSearch-program'],
-        },
-        {
-          type: 'doc',
-          id: 'tips',
-        },
-        {
-          type: 'doc',
-          id: 'integrations',
-        },
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Under the hood',
-      items: ['how-does-it-work', 'required-configuration'],
-    },
+    // {
+    //   type: 'category',
+    //   label: 'React入门系列',
+    //   items: ['record-extractor', 'templates', 'manage-your-crawls'],
+    // },
+    // {
+    //   type: 'category',
+    //   label: 'Requirements, tips, FAQ',
+    //   items: [
+    //     {
+    //       type: 'category',
+    //       label: 'FAQ',
+    //       items: ['crawler', 'DocSearch-program'],
+    //     },
+    //     {
+    //       type: 'doc',
+    //       id: 'tips',
+    //     },
+    //     {
+    //       type: 'doc',
+    //       id: 'integrations',
+    //     },
+    //   ],
+    // },
+    // {
+    //   type: 'category',
+    //   label: 'Under the hood',
+    //   items: ['how-does-it-work', 'required-configuration'],
+    // },
   ],
 };

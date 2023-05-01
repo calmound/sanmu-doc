@@ -1,8 +1,8 @@
 {
-  "name": "@docsearch/website",
+  "name": "/website",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://docsearch.algolia.com/",
+  "homepage": "https://github.com/calmound/sanmu-blog",
   "scripts": {
     "build:clean": "rm -rf dist build .docusaurus node_modules",
     "docusaurus": "docusaurus",
@@ -26,6 +26,7 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@material-ui/core": "^4.12.4",
     "@mdx-js/react": "^1.6.22",
+    "@vercel/analytics": "^1.0.0",
     "clsx": "^1.1.1",
     "file-loader": "6.2.0",
     "image-webpack-loader": "^8.1.0",

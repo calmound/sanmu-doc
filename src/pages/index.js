@@ -1,16 +1,19 @@
 import Layout from '@theme/Layout';
 import React from 'react';
-
+import { Analytics } from '@vercel/analytics/react';
 import Home from '../components/Home';
 
 function HomePage() {
   return (
-    <Layout
-      title="DocSearch: Search made for documentation"
-      description="The easiest way to add search to your documentation - Powered by Algolia"
-    >
-      <Home />
-    </Layout>
+    <>
+      <Layout
+        title="三木学习小站"
+        description="三木的学习笔记"
+      >
+        <Home />
+      </Layout>
+      <Analytics />
+    </>
   );
 }
 
