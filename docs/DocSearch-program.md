@@ -129,4 +129,3 @@ For any issue related to [the DocSearch UI library](https://github.com/algolia/d
 
 [1]: mailto:docsearch@algolia.com
 [2]: https://www.algolia.com/
-[3]: /docs/run-your-own

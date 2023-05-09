@@ -44,7 +44,7 @@ function Home() {
             </a>
           </Grid>
           <Grid item>
-            <a href="https://github.com/HaochenQ" >
+            <a href="https://space.bilibili.com/101706573" >
               <FontAwesomeIcon icon={faBilibili} size="xl" />
             </a>
           </Grid>
