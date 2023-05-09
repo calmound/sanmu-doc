@@ -72,11 +72,11 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
               to: 'docs/vue/01 环境搭建',
               position: 'right',
             },
-            {
-              label: '杂七杂八',
-              to: 'apply',
-              position: 'right',
-            },
+            // {
+            //   label: '杂七杂八',
+            //   to: 'apply',
+            //   position: 'right',
+            // },
             // right
             // {
             //   type: 'docsVersionDropdown',

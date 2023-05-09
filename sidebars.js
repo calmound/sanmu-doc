@@ -29,11 +29,11 @@ module.exports = {
       label: 'Vue原理系列',
       items: ['vue-advance/如何调试vue源码'],
     },
-    {
-      type: 'category',
-      label: 'React原理系列',
-      items: [''],
-    },
+    // {
+    //   type: 'category',
+    //   label: 'React原理系列',
+    //   items: [''],
+    // },
     {
       type: 'category',
       label: '工程化',
