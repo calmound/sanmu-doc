@@ -13,7 +13,7 @@ module.exports = {
   docs: [
     {
       type: 'category',
-      label: 'Vue入门系列',
+      label: 'Vue系列',
       items: [
         'vue/01 环境搭建',
         'vue/02 模版语法',
@@ -22,18 +22,19 @@ module.exports = {
         'vue/05 组件',
         'vue/vue-router4基础知识梳理',
         'vue/10分钟带你入门pinia',
+        'vue-advance/如何调试vue源码'
       ],
-    },
-    {
-      type: 'category',
-      label: 'Vue原理系列',
-      items: ['vue-advance/如何调试vue源码'],
     },
     // {
     //   type: 'category',
-    //   label: 'React原理系列',
-    //   items: [''],
+    //   label: 'Vue原理系列',
+    //   items: [],
     // },
+    {
+      type: 'category',
+      label: 'React系列',
+      items: ['react/Fiber'],
+    },
     {
       type: 'category',
       label: '工程化',
@@ -51,6 +52,14 @@ module.exports = {
     },
     {
       type: 'category',
+      label: '计算机网络',
+      items: [
+        'network/HTTPS介绍',
+        'network/TLS过程',
+      ],
+    },
+    {
+      type: 'category',
       label: '低代码-nocobase学习',
       items: [
         'nocobase/入口文件分析',
@@ -64,6 +73,7 @@ module.exports = {
         'nocobase/前后端请求url设计',
       ],
     },
+
     // {
     //   type: 'category',
     //   label: 'nocobase学习',
