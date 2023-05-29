@@ -22,7 +22,8 @@ module.exports = {
         'vue/05 组件',
         'vue/vue-router4基础知识梳理',
         'vue/10分钟带你入门pinia',
-        'vue-advance/如何调试vue源码'
+        'vue-advance/如何调试vue源码',
+        'vue/vue挑战',
       ],
     },
     // {
@@ -33,12 +34,26 @@ module.exports = {
     {
       type: 'category',
       label: 'React系列',
-      items: ['react/Fiber'],
+      items: ['react/Fiber', 'react/React Hooks'],
+    },
+    {
+      type: 'category',
+      label: 'HTML/CSS',
+      items: [
+        'html/前端说的自适应是什么',
+        'html/CSS Flex案例',
+        'html/JavaScript的DOM汇总',
+      ],
     },
     {
       type: 'category',
       label: '工程化',
-      items: ['engine/Monorepo是什么，从0到1带你配置'],
+      items: [
+        'engine/Monorepo是什么，从0到1带你配置',
+        'engine/如何在前后端联调时查错和解决问题',
+        'engine/执行了npm run xxx到底做了什么事情',
+        'engine/docker启动数据库',
+      ],
     },
     {
       type: 'category',
@@ -53,14 +68,11 @@ module.exports = {
     {
       type: 'category',
       label: '计算机网络',
-      items: [
-        'network/HTTPS介绍',
-        'network/TLS过程',
-      ],
+      items: ['network/HTTPS介绍', 'network/TLS过程'],
     },
     {
       type: 'category',
-      label: '低代码-nocobase学习',
+      label: 'nocobase学习',
       items: [
         'nocobase/入口文件分析',
         'nocobase/路由',
@@ -68,9 +80,9 @@ module.exports = {
         'nocobase/布局分析',
         'nocobase/组件如何渲染到页面中',
         'nocobase/如何启动后端服务',
-        'nocobase/目录结构分析',
+        // 'nocobase/目录结构分析',
         'nocobase/插件模块',
-        'nocobase/前后端请求url设计',
+        // 'nocobase/前后端请求url设计',
       ],
     },
 
