@@ -6,9 +6,9 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (
   module.exports = {
-    title: '三木',
+    title: '三木1',
     tagline:
-      '三木技术分享',
+      '三木技术分享1',
     url: 'https://sanmustudy.cn',
     baseUrl: '/',
     favicon: 'img/logo.png',
@@ -70,6 +70,11 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
             {
               label: '技术学习',
               to: 'docs/vue/01 环境搭建',
+              position: 'right',
+            },
+            {
+              label: '技术学习123',
+              to: 'docs/test/article',
               position: 'right',
             },
             // {

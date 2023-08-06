@@ -85,6 +85,14 @@ module.exports = {
         // 'nocobase/前后端请求url设计',
       ],
     },
+    {
+      type: 'link',
+      label: 'test1223',
+      href: "http://www.baidu.com"
+      // items: [
+      //   'test/test',
+      // ],
+    },
 
     // {
     //   type: 'category',
