@@ -1,0 +1,10 @@
+{
+  "obsidian-imgur-plugin:imgur-resize-b-command": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad7"
+    }
+  ]
+}
