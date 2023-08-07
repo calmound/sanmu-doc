@@ -90,6 +90,11 @@ module.exports = {
         // 'nocobase/前后端请求url设计',
       ],
     },
+    {
+      type: "category",
+      label: "vue-vben-admin学习",
+      items: ["vue-vben-admin/项目初识", "vue-vben-admin/功能演示"],
+    },
 
     // {
     //   type: 'category',
