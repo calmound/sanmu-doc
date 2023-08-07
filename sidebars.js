@@ -15,6 +15,7 @@ module.exports = {
       type: "category",
       label: "Vue系列",
       items: [
+        "vue/为什么学习Vue",
         "vue/01 环境搭建",
         "vue/02 模版语法",
         "vue/03 条件渲染和列表渲染",
