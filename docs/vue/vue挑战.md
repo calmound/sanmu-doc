@@ -10,8 +10,8 @@
 
 ```html
 <script setup>
-  import { ref } from 'vue';
-  const msg = ref('Hello World');
+  import { ref } from "vue";
+  const msg = ref("Hello World");
 </script>
 
 <template>
@@ -32,10 +32,10 @@
 ```html
 // 修改 Child.vue
 <script setup lang="ts">
-  import { onUnmounted, onMounted, inject } from 'vue';
+  import { onUnmounted, onMounted, inject } from "vue";
 
-  const timer = inject('timer');
-  const count = inject('count');
+  const timer = inject("timer");
+  const count = inject("count");
 
   onMounted(() => {
     timer.value = window.setInterval(() => {
@@ -65,7 +65,7 @@
 
 ```html
 <script setup>
-  import { nextTick, onMounted, ref } from 'vue';
+  import { nextTick, onMounted, ref } from "vue";
 
   const count = ref(0);
   const counter = ref(null);
@@ -96,7 +96,7 @@
 
 ```html
 <script setup>
-  const msg = 'Hello World';
+  const msg = "Hello World";
 </script>
 
 <template>
@@ -115,10 +115,10 @@
 
 ```html
 <script setup>
-  import { ref } from 'vue';
-  const theme = ref('red');
+  import { ref } from "vue";
+  const theme = ref("red");
 
-  const colors = ['blue', 'yellow', 'red', 'green'];
+  const colors = ["blue", "yellow", "red", "green"];
 
   setInterval(() => {
     theme.value = colors[Math.floor(Math.random() * 4)];
@@ -145,7 +145,7 @@
 
 ```html
 <script setup lang="ts">
-  import { isRef, ref, Ref, reactive, toRef } from 'vue';
+  import { isRef, ref, Ref, reactive, toRef } from "vue";
 
   const initial = ref(10);
   const count = ref(0);
@@ -187,7 +187,7 @@
     foo: 1,
     bar: 2,
   });
-  const fooRef = toRef(state, 'foo'); // change the impl...
+  const fooRef = toRef(state, "foo"); // change the impl...
 
   // mutating the ref updates the original
   fooRef.value++;
@@ -218,11 +218,11 @@
 ```html
 <script setup lang="ts">
   const click1 = () => {
-    console.log('click1');
+    console.log("click1");
   };
 
   const click2 = () => {
-    console.log('click2');
+    console.log("click2");
   };
 </script>
 
@@ -241,7 +241,7 @@
 
 ```html
 <script setup lang="ts">
-  import { reactive, toRefs } from 'vue';
+  import { reactive, toRefs } from "vue";
 
   function useCount() {
     const state = reactive({

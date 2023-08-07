@@ -11,12 +11,8 @@
             "id": "0231414c36fa5a71",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docker/basic.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docker/basic.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docker/basic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docker/basic.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -156,53 +148,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0231414c36fa5a71",
+  "active": "db18409ca5d95b94",
   "lastOpenFiles": [
-    "docker/assets/Pasted image 20230802153422.png",
-    "docker/basic.md",
-    "docker/assets/路径 1 (1).png",
-    "docker/assets/Pasted image 20230802153849.png",
-    "docker/assets/6.png",
-    "docker/assets/5.png",
-    "docker/assets/4.png",
-    "docker/Dockerfile如何写.md",
-    "docker/install.md",
-    "docker/introduce.md",
-    "docker/docker基础使用.md",
-    "docker/assets/3.png",
-    "docker/assets/Pasted image 20230801102736.png",
-    "docker/assets/Pasted image 20230731174536.png",
-    "docker/image.png",
-    "Untitled.md",
-    "docker/inst.md",
-    "1690790979902 1.jpg.md",
-    "Docker.md",
-    "docker/assets",
-    "docker/index copy.md",
-    "docker/introduce/index copy.md",
-    "docker/docker介绍/index.md",
-    "docker/introduce/index.md",
-    "docker/introduce",
-    "docker/docker介绍/docker介绍.md",
-    "docker/introduce/docker介绍.md",
-    "docker/docker介绍",
-    "vue/vue挑战.md",
-    "vue/vue-router4基础知识梳理.md",
-    "vue/05 组件.md",
-    "vue/04 事件处理和表单绑定.md",
-    "vue/03 条件渲染和列表渲染.md",
-    "vue/02 模版语法.md",
-    "vue/01 环境搭建.md",
-    "mysql/启动/index.md.md",
+    "算法/JavaScript手写题.md",
+    "算法",
+    "vue/为什么学习Vue.md",
+    "vue/assets/Pasted image 20230805155244.png",
+    "vue/assets",
+    "vue-vben-admin/assets/9.png",
+    "vue-vben-admin/assets/8.png",
+    "vue-vben-admin/assets/7.png",
+    "vue-vben-admin/assets/6.png",
+    "vue-vben-admin/assets/5.png",
+    "vue-vben-admin/assets/4.png",
+    "vue-vben-admin/assets/3.png",
+    "vue-vben-admin/assets/2.png",
+    "vue-vben-admin/assets/11.png",
+    "vue-vben-admin/assets",
+    "vue-vben-admin/2.vue-vben-admin功能演示.md",
+    "vue-vben-admin/1.vue-vben-admin项目初识.md",
+    "vue-vben-admin",
+    "test/test.md",
+    "test/article.md",
+    "test",
+    "other/image",
+    "other/Github Clone Connection closed by remote host.md",
+    "backend/前端看的nginx.md",
+    "backend/image",
+    "backend",
+    "TypeScript/基础类型体操.md",
+    "TypeScript",
+    "3. 目录解析.md",
+    "other/window 无法启动 docker desktop/index.md.md",
+    "other/window 无法启动 docker desktop",
+    "nestjs/nestjs的日志如何显示.md",
     "nestjs/什么是NestJs.md",
+    "nestjs/NestJs的控制器.md",
+    "nestjs/nestjs连接数据库.md",
+    "nestjs/nestjs管道.md",
     "nestjs/nestjs的守卫.md",
-    "nestjs",
-    "go",
-    "docker",
-    "k8s",
-    "nginx",
-    "mysql/node连接数据库",
-    "mysql/Untitled",
+    "nestjs/NestJs的Middleware.md",
+    "nestjs/NestJs的ioc讲什么.md",
+    "nestjs/NestJs的cli.md",
+    "nestjs/nestjs 文件上传.md",
+    "mysql/数据库的基本操作/index.md.md",
+    "mysql/启动/index.md.md",
+    "go/基础介绍.md",
+    "docker/introduce.md",
+    "docker/install.md",
     "mysql/数据库的基本操作/Untitled.canvas"
   ]
 }
