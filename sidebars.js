@@ -94,7 +94,7 @@ module.exports = {
     {
       type: "category",
       label: "vue-vben-admin学习",
-      items: ["vue-vben-admin/项目初识", "vue-vben-admin/功能演示"],
+      items: ["vue-vben-admin/项目初识", "vue-vben-admin/功能演示", "vue-vben-admin/目录解析", "vue-vben-admin/页面布局", "vue-vben-admin/跟着vben学习env的妙用"],
     },
 
     // {
