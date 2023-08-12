@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ae6dee05abb54a2e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -160,6 +170,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -168,12 +179,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "05f6bb4c4aa1baf5",
+  "active": "ae6dee05abb54a2e",
   "lastOpenFiles": [
     "vue-vben-admin/2.功能演示.md",
     "vue-vben-admin/1.项目初识.md",
     "other/window 无法启动 docker desktop/index.md.md",
-    "other/window 无法启动 docker desktop/Pasted image 20230720100937.png",
+    "other/window 无法启动 docker desktop/3. 目录解析.png",
     "other/window 无法启动 docker desktop",
     "nestjs/什么是NestJs.md",
     "nestjs/nestjs连接数据库.md",

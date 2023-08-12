@@ -2,7 +2,7 @@
 
 `Docker Desktop requires a newer WSL kernel version`
 
-![[Pasted image 20230720100937.png]]
+![[3. 目录解析.png]]
 
 ```
 wsl --update
