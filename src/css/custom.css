@@ -381,3 +381,7 @@ html[data-theme='dark'] .active-btn {
     box-shadow: -2px 0 var(--ifm-color-primary-Dark);
   }
 }
+
+code {
+  color: #fb750e;
+}

@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "aa1f1e6c3dc5d095",
+        "id": "4c6321344058417d",
         "type": "tabs",
         "children": [
           {
-            "id": "b58c2875ce7f72c3",
+            "id": "4703261f2692537a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "vben/5.  路由.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "vben/5.  路由.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "vben/5.  路由.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "vben/5.  路由.md"
+              }
             }
           }
         ],
@@ -139,30 +147,31 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b58c2875ce7f72c3",
+  "active": "db18409ca5d95b94",
   "lastOpenFiles": [
-    "vue-vben-admin/6. 跟着vben学习env的妙用.md",
+    "vue-vben-admin/5.  路由.md",
+    "vue/1.为什么学习Vue.md",
+    "vben/数据联调.md",
+    "vben/数据mock&联调服务.md",
     "vben/assets/9.png",
     "vben/assets/8.png",
     "vben/assets/7.png",
-    "vben/assets/4.png",
+    "vben/assets/3.png",
     "vben/assets/6.png",
     "vben/assets/5.png",
-    "vben/assets/3.png",
     "vben/assets/2.png",
+    "vben/assets/4.png",
     "vben/assets/15.png",
     "vben/assets/14.png",
-    "vben/数据联调.md",
-    "vben/数据mock&联调服务.md",
     "vben/assets",
     "vben/6. 跟着vben学习env的妙用.md",
     "vben/5.  路由.md",
@@ -171,29 +180,30 @@
     "vben/2. 功能演示.md",
     "vben/1. introduce.md",
     "vben",
-    "vue-vben-admin/1. introduce.md",
-    "vue-vben-admin/5.  路由.md",
-    "vue-vben-admin/4. 页面布局.md",
-    "vue-vben-admin/数据mock&联调服务.md",
     "vue-vben-admin/数据联调.md",
+    "vue-vben-admin/数据mock&联调服务.md",
+    "vue-vben-admin/4. 页面布局.md",
     "vue-vben-admin/3. 目录解析.md",
-    "react/React Hooks.md",
-    "vue-vben-admin/1. 项目初识.md",
     "vue-vben-admin/2. 功能演示.md",
-    "vue-vben-admin/2.功能演示.md",
-    "vue-vben-admin/1.项目初识.md",
+    "vue-vben-admin/1. 项目初识.md",
+    "docker/basic.md",
+    "nocobase/项目初识.md",
+    "nocobase/1.项目初识.md",
     "other/window 无法启动 docker desktop/index.md.md",
     "other/window 无法启动 docker desktop",
     "nestjs/什么是NestJs.md",
     "nestjs/nestjs连接数据库.md",
-    "nestjs/nestjs的守卫.md",
+    "nestjs/nestjs的日志如何显示.md",
     "nestjs/nestjs管道.md",
+    "nestjs/NestJs的Middleware.md",
+    "nestjs/nestjs的守卫.md",
     "nestjs",
     "mysql/数据库的基本操作",
     "mysql/启动",
-    "mysql",
     "go",
     "docker/assets",
-    "docker"
+    "docker",
+    "算法",
+    "mysql/数据库的基本操作/Untitled.canvas"
   ]
 }
