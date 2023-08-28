@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vben/5.  路由.md",
+                "file": "react/react-router.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vben/5.  路由.md",
+                "file": "react/react-router.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "vben/5.  路由.md",
+                "file": "react/react-router.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vben/5.  路由.md"
+                "file": "react/react-router.md"
               }
             }
           }
@@ -156,8 +156,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "db18409ca5d95b94",
+  "active": "4703261f2692537a",
   "lastOpenFiles": [
+    "react/assets/1.png",
+    "react/assets",
+    "vben/7. 国际化.md",
+    "react/react-router.md",
+    "vben/5.  路由.md",
     "vue-vben-admin/5.  路由.md",
     "vue/1.为什么学习Vue.md",
     "vben/数据联调.md",
@@ -174,7 +179,6 @@
     "vben/assets/14.png",
     "vben/assets",
     "vben/6. 跟着vben学习env的妙用.md",
-    "vben/5.  路由.md",
     "vben/4. 页面布局.md",
     "vben/3. 目录解析.md",
     "vben/2. 功能演示.md",
@@ -194,16 +198,12 @@
     "nestjs/什么是NestJs.md",
     "nestjs/nestjs连接数据库.md",
     "nestjs/nestjs的日志如何显示.md",
-    "nestjs/nestjs管道.md",
-    "nestjs/NestJs的Middleware.md",
-    "nestjs/nestjs的守卫.md",
     "nestjs",
     "mysql/数据库的基本操作",
     "mysql/启动",
     "go",
     "docker/assets",
     "docker",
-    "算法",
     "mysql/数据库的基本操作/Untitled.canvas"
   ]
 }
