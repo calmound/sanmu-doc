@@ -35,7 +35,7 @@ module.exports = {
     {
       type: "category",
       label: "React系列",
-      items: ["react/Fiber", "react/React Hooks"],
+      items: ["react/Fiber", "react/React Hooks", "react/react-router"],
     },
     {
       type: "category",
@@ -64,6 +64,13 @@ module.exports = {
         "sequelize/数据库表的列定义",
         "sequelize/数据查询",
         "sequelize/一个完整的Sequelize案例",
+      ],
+    },
+    {
+      type: "category",
+      label: "数据库",
+      items: [
+        "mysql/mongodb",
       ],
     },
     {
