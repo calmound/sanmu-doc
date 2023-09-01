@@ -78,6 +78,11 @@ module.exports = {
     },
     {
       type: "category",
+      label: "Node",
+      items: ["backend/email"],
+    },
+    {
+      type: "category",
       label: "nocobase学习",
       items: [
         "nocobase/入口文件分析",

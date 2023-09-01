@@ -52,7 +52,7 @@ docker run --name sanmu-nginx -p 80:80 -v /d/nginx:/etc/nginx/conf -d nginx:late
 docker inspect sanmu-nginx
 ```
 通过上面的命令启动后，我们可以访问 `localhost`
-![[5.png]]
+![[assets/5.png]]
 
 ### 查看所有的容器
 ```bash
