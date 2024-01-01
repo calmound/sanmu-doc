@@ -1,15 +1,16 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
+  "index": {
     "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
+    "title": "三木小站",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw",
+      "footer": false
+    }
+  },
+  "vue-introduce": {
+    "title": "技术学习",
+    "type": "page",
+    "href": "/vue/vue-introduce"
   }
 }

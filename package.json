@@ -19,14 +19,24 @@
   },
   "homepage": "https://github.com/shuding/nextra-docs-template#readme",
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@material-ui/core": "^4.12.4",
+    "@mui/material": "^5.15.2",
     "next": "^13.0.6",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-spring": "^9.7.3"
   },
   "devDependencies": {
     "@types/node": "18.11.10",
+    "autoprefixer": "^10.4.16",
+    "install": "^0.13.0",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
     "typescript": "^4.9.3"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "obsidian-imgur-plugin:imgur-resize-b-command": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad7"
+    }
+  ],
+  "markdown:toggle-preview": [],
+  "editor:insert-codeblock": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
+  "cmenu-plugin:editor:toggle-code": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "E"
+    }
+  ]
+}
