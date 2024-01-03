@@ -5,7 +5,7 @@
 ```
 docker pull nginx
 ```
-![[Pasted image 20230714223928.png]]
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401030947355.png)
 
 ### 启动nginx服务
 ```
@@ -17,7 +17,7 @@ docker run --name nginx-sanmu -p 81:80 -d nginx
 - -d 后台执行
 所以，上面的命令就是说我们将镜像nginx启动一个服务，名字叫nginx-sanmu，并且将这个服务内部暴露出来的80端口，通过81映射。
 现在我们可以通过localhost:81 看到这个页面
-![[Pasted image 20230714224540.png]]
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401030947357.png)
 
 # 基础知识介绍
 首先，我们先准备一个静态页面，index.html

@@ -1,15 +1,15 @@
 下载github的代码仓库，一直报错，以为是key的问题，重新做了上传还是有错误。
 
 ssh下载的话，说没有权限
-![[Pasted image 20230708155802.png]]
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031010460.png)
 
 https下载，连接拒绝
-![[Pasted image 20230708155850.png]]
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031010461.png)
 
 
 首先打开.ssh文件夹
 
-![[Pasted image 20230708155916.png]]
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031010462.png)
 
 
 我以为是known_hosts问题，先到konow_hosts下下把关于github的都删掉

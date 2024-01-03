@@ -22,7 +22,7 @@ const [name, setName] = useState('sanmu');
 const [num, setNum] = useState(20);
 ```
 
-![Untitled](Hooks/Untitled.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031012899.png)
 
 不同的 hooks 方法，memoizedState 存储的内容也不同：
 
@@ -259,7 +259,7 @@ function mountWorkInProgressHook(): Hook {
 
 在这个函数中会遍找寻 current 的 hook 节点和 workInProgress 的 hook 是节点。在 re-render 阶段，已经创建过 hooks 了，会复用已有的 workInProgress fiber 的 memoizedState
 
-![Untitled](Hooks/Untitled%201.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031012898.png)
 
 # 参考文章
 

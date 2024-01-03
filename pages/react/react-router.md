@@ -115,7 +115,7 @@ export default App;
 ```
 
 通过上面这个代码，我们`/a` 和`/b` 两个页面就通过 `About Title` 这个标题了。
-![](assets/1.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031011442.png)
 
 ### 4.Link
 
@@ -143,7 +143,7 @@ const params = useParams();
 console.log(params)
 ```
 
-![](assets/2.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031011443.png)
 
 ### 2.useLocation
 
@@ -155,7 +155,7 @@ const location = useLocation();
 console.log(location);
 ```
 
-![](assets/3.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031011444.png)
 
 ### 3.useHref
 
@@ -166,4 +166,4 @@ const href = useHref();
 console.log(href)
 ```
 
-![](assets/4.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031011445.png)

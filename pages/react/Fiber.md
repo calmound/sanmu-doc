@@ -14,7 +14,7 @@
 
 基于 Stack Reconciler 的页面效果
 
-![stack.gif](fiber/stack.gif)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031014539.gif)
 
 ### Fiber Reconciler
 
@@ -35,7 +35,7 @@ Fiber 调度的优点：
 
 基于 Fiber Reconciler 的页面效果
 
-![fiber.gif](fiber/fiber.gif)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031014536.gif)
 
 通过上面两组动画能够比较出来，Fiber 的动画比 Stack 的动画要顺滑很多。
 
@@ -75,7 +75,7 @@ import { jsx as _jsx } from 'react/jsx-runtime';
 
 开发人员通过编写`JSX`代码来形成`Fiber`，之后`Fiber`来构建`DOM`。
 
-![Untitled](fiber/flow.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031014537.png)
 
 ## element 与 fiber 之间的对应关系
 
@@ -217,7 +217,7 @@ type 定义与此 fiber 关联的功能或者类。对于组件，它指向函�
 
 每个 Fiber 记录了它上面的信息，而且 Fiber 与 Fiber 之间也会相互关联。
 
-![Untitled](fiber/fiber.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031014537.png)
 
 每个 Fiber 通过 child、sibling、return 三个属性建立连接。
 

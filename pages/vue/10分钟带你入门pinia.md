@@ -8,7 +8,7 @@
 
 # 为什么用 pinia
 
-![Pasted image 20230411160336.png](10%E5%88%86%E9%92%9F%E5%B8%A6%E4%BD%A0%E5%85%A5%E9%97%A8pinia%2008f97e2103f9435d8dd819f065f99987/Pasted_image_20230411160336.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031252869.png)
 
 上图展示了`Vue`的组件结构，其中`Root`是根组件，下面连接的是其子组件和子孙组件。
 
@@ -16,13 +16,13 @@
 
 现在有一个需求，即组件 B 和组件 C 也希望展示`count`的值，该怎么做呢？
 
-![Pasted image 20230411163650.png](10%E5%88%86%E9%92%9F%E5%B8%A6%E4%BD%A0%E5%85%A5%E9%97%A8pinia%2008f97e2103f9435d8dd819f065f99987/Pasted_image_20230411163650.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031252871.png)
 
 一种方案是在根组件中创建 `count` 和 `setCount`，然后将它们作为参数传递给组件 A 以展示和修改，将 `count` 值传递给组件 B 和 C 以展示。
 
 上述方案明显过于繁琐，通过中间参数传递值会使得代码冗余且容易出错。一旦某个组件展示不正确，则需要层层调试。
 
-![Pasted image 20230411164319.png](10%E5%88%86%E9%92%9F%E5%B8%A6%E4%BD%A0%E5%85%A5%E9%97%A8pinia%2008f97e2103f9435d8dd819f065f99987/Pasted_image_20230411164319.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031252872.png)
 
 看看新的方案，我在组件之外单独维护一个 store 的状态块，里面记录了 `count` 的值以及能够操作 `count` 变化的 `setCount` 方法。然后将它下发到我需要使用的各个组件。对于组件 A，传递 `count` 和 `setCount`；对于组件 B 和 C，传递 count 用于显示。
 
@@ -63,7 +63,7 @@
 
 根据以下命令，安装完成后进入 `pinia-learn` 目录，执行 `npm install` 安装依赖，然后执行 `npm run dev`。在浏览器中访问 [`http://localhost](http://localhost/):**5174**/` 打开页面。
 
-![Untitled](10%E5%88%86%E9%92%9F%E5%B8%A6%E4%BD%A0%E5%85%A5%E9%97%A8pinia%2008f97e2103f9435d8dd819f065f99987/Untitled.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031252875.png)
 
 ## 2、安装 pinia
 
@@ -182,7 +182,7 @@ const storeCounter = useCounterStore();
 
 之后我们可以看到如下的页面。当点击加号或减号时，上面的`count`会发生相应的变化。
 
-![Untitled](10%E5%88%86%E9%92%9F%E5%B8%A6%E4%BD%A0%E5%85%A5%E9%97%A8pinia%2008f97e2103f9435d8dd819f065f99987/Untitled%201.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031252873.png)
 
 ### AboutView.vue
 
@@ -215,7 +215,7 @@ button {
 </style>
 ```
 
-![Untitled](10%E5%88%86%E9%92%9F%E5%B8%A6%E4%BD%A0%E5%85%A5%E9%97%A8pinia%2008f97e2103f9435d8dd819f065f99987/Untitled%202.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031252874.png)
 
 # 总结
 

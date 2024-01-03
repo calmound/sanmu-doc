@@ -35,4 +35,4 @@ TLS 过程结束后，客户端和服务器之间建立了安全的通信连接�
 
 以上就是 TLS 过程的详细步骤。TLS 协议在网络安全中扮演着至关重要的角色，保障了数据的安全传输。
 
-![Untitled](TLS/Untitled.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031008931.png)

@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1008bc0f1ccbaf1e",
+        "id": "ecb24a50c16ace12",
         "type": "tabs",
         "children": [
           {
-            "id": "4cc65d8029e52198",
+            "id": "00505acf4eecbb2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "antd/Button组件的使用.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3495a922f937bd2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "antd/Button组件的使用.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "562459f121a3129f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名 1.md",
+                "file": "vben/4. 页面布局.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名 1.md",
+                "file": "vben/4. 页面布局.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -135,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名 1.md",
+                "file": "vben/4. 页面布局.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名 1.md"
+                "file": "vben/4. 页面布局.md"
               }
             }
           },
@@ -168,7 +143,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -193,60 +170,59 @@
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "spreadsheets:New Spreadsheet": false,
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "562459f121a3129f",
+  "active": "00505acf4eecbb2b",
   "lastOpenFiles": [
-    "antd/Button组件的使用.md",
-    "未命名 1.md",
-    "未命名.md",
-    "conflict-files-obsidian-git.md",
-    "antd/ant-design的使用.md",
-    "antd/assets/Button组件的使用-1.png",
-    "antd/assets/Button组件的使用.png",
-    "antd/assets/Button组件-1.png",
-    "antd/assets/Button组件.png",
-    "antd/assets",
-    "antd",
-    "Untitled.sheet",
-    "react/react-router.md",
-    "recommend/monaco.md",
-    "recommend/assets/monaco1.png",
-    "recommend/assets/monaco.png",
-    "recommend/assets/Untitled 5.png",
-    "recommend/assets/Untitled 4.png",
-    "recommend/assets/Untitled 3.png",
-    "recommend/assets/Untitled 2.png",
-    "recommend/assets",
-    "recommend",
-    "mysql/mongodb.md",
-    "react/React Hooks.md",
-    "vben/7.国际化.md",
-    "vben/7. 国际化.md",
-    "react/assets",
-    "vben/数据mock&联调服务.md",
-    "mysql/Atlas在线MongoDB数据存储.md",
-    "mysql/assets",
-    "react/flow.md",
-    "react/ReactFlow：简化流程图开发的React库.md",
-    "vue-vben-admin/6. 跟着vben学习env的妙用.md",
-    "vben/数据联调.md",
-    "vben/assets",
-    "vben/6. 跟着vben学习env的妙用.md",
-    "vben/5.  路由.md",
-    "vben/4. 页面布局.md",
     "vben/3. 目录解析.md",
     "vben/2. 功能演示.md",
     "vben/1. introduce.md",
+    "vben/assets/2.png",
+    "vben/assets/1.png",
+    "vben/数据联调.md",
+    "vue/02 模版语法.md",
+    "vue/1.为什么学习Vue.md",
+    "vue/assets/Pasted image 20230805155244.png",
+    "vue/03 条件渲染和列表渲染.md",
+    "vue/04 事件处理和表单绑定.md",
+    "vue/05 组件.md",
+    "vue/10分钟带你入门pinia.md",
+    "vue/vue-router4基础知识梳理.md",
+    "vue/02 模版语法 7c2f891b2e8c4a12ba58b0cbeb7210bc/Untitled 1.png",
+    "vue/02 模版语法 7c2f891b2e8c4a12ba58b0cbeb7210bc/Untitled.png",
+    "vue/vue-introduce.md",
+    "vue/01 环境搭建 e0405450046d4ce79f4608f45bc6afad/Untitled.png",
+    "vue/vue3-router4基础知识梳理 4e5475c7d2a74e99ab6f99378b96bc06/Untitled.png",
+    "vue/vue挑战.md",
+    "vue/vue3-router4基础知识梳理 4e5475c7d2a74e99ab6f99378b96bc06/Untitled 1.png",
+    "vue/01 环境搭建 e0405450046d4ce79f4608f45bc6afad/Untitled 3.png",
+    "vue/01 环境搭建 e0405450046d4ce79f4608f45bc6afad/Untitled 2.png",
+    "vben/数据mock&联调服务.md",
+    "vben/7.国际化.md",
+    "vben/7. 国际化.md",
+    "vben/6. 跟着vben学习env的妙用.md",
+    "vben/5.  路由.md",
+    "vben/4. 页面布局.md",
+    "sequelize/一个完整的Sequelize案例.md",
+    "TypeScript/基础类型体操.md",
+    "test/article.md",
+    "test/test.md",
+    "sequelize/数据库表的列定义.md",
+    "sequelize/数据查询.md",
+    "antd/assets",
+    "antd",
+    "Untitled.sheet",
+    "recommend/assets",
+    "recommend",
+    "react/assets",
+    "mysql/assets",
+    "vben/assets",
     "vben",
-    "vue-vben-admin/1. introduce.md",
-    "vue-vben-admin/5.  路由.md",
-    "vue-vben-admin/4. 页面布局.md",
     "other/window 无法启动 docker desktop"
   ]
 }

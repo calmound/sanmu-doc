@@ -5,7 +5,7 @@
 windows 和 mac 可以直接安装软件，访问 https://www.docker.com/ 。
 软件安装后，直接执行软件就可以在终端使用 docker 命令了，也可以通过直接操作软件实现 docker 的各种操作。
 
-![docker](./assets/3.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401030947723.png)
 
 ### linux 可以通过 apt 安装
 

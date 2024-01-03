@@ -6,7 +6,7 @@ HTTP 的端口是 80，HTTPS 的端口是 443。其他方面，如应答模式�
 
 HTTPS 的 S 指的是 SSL/TLS，让 HTTP 运行在了安全的 SSL/TLS 协议上。
 
-![Untitled](HTTPS/Untitled.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031005119.png)
 
 ## TLS
 
@@ -28,7 +28,7 @@ TLS 的密码套件基本形式为：密钥交换算法 + 签名算法 + 对称�
 
 加密和解密使用的密钥都是同一个，是对称的。
 
-![Untitled](HTTPS/Untitled%201.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031005111.png)
 
 ### 对称加密算法
 
@@ -38,7 +38,7 @@ ChaCha20：密钥长度固定 256 位
 
 加密和解密使用的密钥都是同一个，是对称的。
 
-![HTTPS%208b88a68255184833ac5015e75bc7ad97/Untitled%201.png](HTTPS/Untitled%201.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031005111.png)
 
 ### 对称加密算法
 
@@ -54,7 +54,7 @@ ChaCha20：密钥长度固定 256 位
 
 公钥加密后只能使用私钥解密，反之亦然。网站保存私钥并发布公钥，用户在想要登录网站时，通过使用公钥进行加密，网站可以通过使用私钥进行解密。由于其他人没有私钥，因此无法破解。
 
-![Untitled](HTTPS/Untitled%202.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031005113.png)
 
 ### 非对称加密算法
 
@@ -74,13 +74,13 @@ ECC：基于椭圆曲线离散对数的数学难题，使用特定的曲线方�
 
 4、完成密钥交换后，之后都使用对称加密。
 
-![Untitled](HTTPS/Untitled%203.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031005114.png)
 
 ## 摘要算法
 
 将任意长度的数据压缩成固定长度且独一无二的“摘要”字符串。转换后的“摘要”字符串无法逆推出原文。常见的摘要算法包括 MD5（16 字节）、SHA-1（20 字节）和 SHA-2（28 字节、32 字节、48 字节）。
 
-![Untitled](HTTPS/Untitled%204.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031005115.png)
 
 ## 完整性
 
@@ -102,7 +102,7 @@ ECC：基于椭圆曲线离散对数的数学难题，使用特定的曲线方�
 
 对私钥加密后的摘要，对方通过公钥解密获得的摘要内容和通过摘要算法从原文计算出的摘要应该是一样的，这样就同时实现了身份认证和不可否认。
 
-![Untitled](HTTPS/Untitled%206.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031005116.png)
 
 ## 数字证书和 CA
 
@@ -112,7 +112,7 @@ ECC：基于椭圆曲线离散对数的数学难题，使用特定的曲线方�
 
 小 CA 让大 CA 签名认证，最终链接到根证书，形成自签名证书或根证书。浏览器和操作系统内置了各大 CA 的根证书，因此只要服务发来的证书通过验证证书里的签名，就可以沿着证书链一层层地验证，找到根证书，从而证明传输过来的公钥是可信的。
 
-![Untitled](HTTPS/Untitled%207.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031005118.png)
 
 ## 总结
 

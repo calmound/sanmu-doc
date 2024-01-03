@@ -30,17 +30,17 @@
 
 此外，我们还可以看到`node_modules`下的.bin 文件夹中增加了`webpack`和`webpack-cli`两个文件。
 
-![Untitled](%E6%89%A7%E8%A1%8C%E4%BA%86npm%20run%20xxx%E5%88%B0%E5%BA%95%E5%81%9A%E4%BA%86%E4%BB%80%E4%B9%88%E4%BA%8B%E6%83%85%20246b18cff5d740c99004a1efd0cab524/Untitled.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401030959514.png)
 
 打开`webpack`文件，可以看到文件顶部写着`#!/usr/bin/env node`，表示这是一个通过使用`node`执行的脚本。
 
-![Untitled](%E6%89%A7%E8%A1%8C%E4%BA%86npm%20run%20xxx%E5%88%B0%E5%BA%95%E5%81%9A%E4%BA%86%E4%BB%80%E4%B9%88%E4%BA%8B%E6%83%85%20246b18cff5d740c99004a1efd0cab524/Untitled%201.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401030959511.png)
 
 那我再问，这个`.bin`下面的`webpack`文件怎么执行`npm install`就能安装了呢？总得有一个创建拷贝的过程吧。
 
 你还记得我们之前说的吗？`npm install`之后，除了生成`.bin`下的文件，还有一个`webpack`的文件夹。我们打开它看一看。
 
-![Untitled](%E6%89%A7%E8%A1%8C%E4%BA%86npm%20run%20xxx%E5%88%B0%E5%BA%95%E5%81%9A%E4%BA%86%E4%BB%80%E4%B9%88%E4%BA%8B%E6%83%85%20246b18cff5d740c99004a1efd0cab524/Untitled%202.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401030959512.png)
 
 可以发现，在`webpack`文件夹下面也有一个 bin 文件。打开这个 webpack.js 文件，可以发现里面的代码和`node_modules`下面的`.bin/webpack`代码一样。我们可以猜测这两个文件是互相类似于拷贝的关系。
 
@@ -81,7 +81,7 @@ scripts/posinstall.js
 console.log('postinstall hello')
 ```
 
-![Untitled](%E6%89%A7%E8%A1%8C%E4%BA%86npm%20run%20xxx%E5%88%B0%E5%BA%95%E5%81%9A%E4%BA%86%E4%BB%80%E4%B9%88%E4%BA%8B%E6%83%85%20246b18cff5d740c99004a1efd0cab524/Untitled%203.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401030959513.png)
 
 # 参考文章
 

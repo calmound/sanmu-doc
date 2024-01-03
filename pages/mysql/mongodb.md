@@ -22,36 +22,36 @@ MongoDB Atlas 有免费的存储，对于学习来说非常方便。
 ### 创建集群
 
 在注册并登录 MongoDB Atlas 后，您需要创建一个新的集群，以存储和管理您的数据。
-![](./assets/1.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031003831.png)
 
 ### 3. 选择云提供商与地理位置
 
 选择喜欢的云提供商（如 AWS、Google Cloud、Azure）以及适合应用程序的地理位置，我选的是香港。
-![](./assets/2.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031003824.png)
 
 其他的配置都可以默认
 
 ### 4. 配置账号密码
 
 设置你连接数据库的账号密码，这个账号密码是用来我们之后代码中连接数据库用的。
-![](./assets/3.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031003825.png)
 
 ### 4. 配置 IP
 
 这里要设置白名单，只有白名单下面的 ip 才能访问这个数据库，算是安全的一种操作。点击 Add My Current Ip Address 添加当前的 ip，也可以设置 0.0.0.0/0 代码开放所有的 ip。
-![](./assets/4.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031003826.png)
 
 ### Nodejs 连接
 
 创建成功后，点击 CONNECT 连接
-![](./assets/5.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031003827.png)
 点击 Drivers 查看 node.js 的代码
-![](./assets/5-1.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031003828.png)
 
 选择 Version 之后，下面会生成对应的连接代码
-![](./assets/7.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031003829.png)
 我这里用 5.5 的版本，会报下面这个错误，大家如果遇到可以将 version 换成 2.2.12
-![](./assets/8.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031003830.png)
 
 这是我连接数据库的完整代码，uri 要换成自己的连接。
 

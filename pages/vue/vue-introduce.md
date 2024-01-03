@@ -12,7 +12,7 @@ title: vue 环境搭建
 
 安装完成后，打开终端，输入 node -v，若看到以下命令，则表明安装完成。
 
-![Untitled](01%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%20e0405450046d4ce79f4608f45bc6afad/Untitled.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031250490.png)
 
 理论上，无需任何特殊操作，只需从官网下载 Node 的安装包，然后安装即可。如果不知道如何安装 Node，请参考以下文章：
 
@@ -61,11 +61,11 @@ npm run dev
 
 通过上述命令，在终端中将会看到如下内容。其中，`http://localhost:5173/`是我们可以在浏览器中访问页面的 URL。
 
-![Untitled](01%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%20e0405450046d4ce79f4608f45bc6afad/Untitled%201.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031250487.png)
 
 # 二、认识项目
 
-![Untitled](01%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%20e0405450046d4ce79f4608f45bc6afad/Untitled%202.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031250488.png)
 
 安装完成后，我们重点关注 `component` 文件夹和 `App.vue` 两个文件，其他文件不要改动。初学阶段也可以先不用了解，重点放在 Vue 语法学习上。
 
@@ -112,6 +112,6 @@ npm run dev
 
 我们正在学习的`vue3`项目中，可以安装`volar`插件，它可以让我们更加友好地编写 Vue 代码。
 
-![Untitled](01%20%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%20e0405450046d4ce79f4608f45bc6afad/Untitled%203.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031250489.png)
 
 PS：如果未来开发`vue2`的项目安装`vetur`

@@ -53,11 +53,11 @@ export default MonacoEditor;
 
 通过上面的代码我们就可以搭建一个基础的编辑器了，查看下图
 
-![](assets/Untitled.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031016311.png)
 
 同时，右键包含了一些我们在vscode中常见的命令。
 
-![](assets/Untitled%201.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031016306.png)
 
 对于大部分的场景，以上的默认的配置就已经可以支持了。
 
@@ -92,7 +92,7 @@ const handleEditorDidMount = (editor, monaco) => {
 ```
 
 在编辑器里面，当我们输入con的时候，便会获取到
-![](assets/Untitled%202.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031016307.png)
 至此我们的编辑器就算搭建完成了。
 
 如果想比对代码的的话，可以使用下面 `DiffEditor`
@@ -121,12 +121,12 @@ const MonacoDiffEditor = () => {
 export default MonacoDiffEditor;
 ```
 
-![](assets/Untitled%203.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031016308.png)
 # 其他
 
 现在功能上来说，已经完成了，但是还是存在一个问题。就是目前编辑器的加载是从cdn的，如果遇到无网或者网络环境不好，编辑器就无法使用了。
 
-![](assets/Untitled%204.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031016309.png)
 这里有两个方案
 
 1. 使用loader函数加载本地的包
@@ -139,9 +139,9 @@ export default MonacoDiffEditor;
 下载地址：[https://www.jsdelivr.com/package/npm/monaco-editor?tab=files&path=min](https://www.jsdelivr.com/package/npm/monaco-editor?tab=files&path=min)
 
 将下载包里面的min文件夹复制出来
-![](assets/Untitled%205.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031016310.png)
 倒入到我们的项目中
-![](assets/monaco.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031016304.png)
 在我们的编辑器中增加如下代码
 ```jsx
 import Editor, { loader } from '@monaco-editor/react'; 
@@ -151,4 +151,4 @@ const MonacoEditor = () => {
 };
 ```
 此时，在看我们的浏览器加载的包就是本地的了
-![](assets/monaco1.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031016305.png)

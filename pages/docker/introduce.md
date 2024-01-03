@@ -34,11 +34,11 @@ Docker 和虚拟机是两种不同的技术，它们在实现应用程序的隔�
 
 传统虚拟化
 
-![传统虚拟化](./assets/2.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401030947722.png)
 
 Docker
 
-![docker](./assets/1.webp)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401030947721.webp)
 
 ## 基本概念
 

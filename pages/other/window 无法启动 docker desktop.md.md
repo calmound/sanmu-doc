@@ -2,7 +2,7 @@
 
 `Docker Desktop requires a newer WSL kernel version`
 
-![[3. 目录解析.png]]
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031009066.png)
 
 ```
 wsl --update

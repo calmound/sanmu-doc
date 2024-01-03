@@ -52,13 +52,13 @@ docker run --name sanmu-nginx -p 80:80 -v /d/nginx:/etc/nginx/conf -d nginx:late
 docker inspect sanmu-nginx
 ```
 通过上面的命令启动后，我们可以访问 `localhost`
-![[5.png]]
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401030947725.png)
 
 ### 查看所有的容器
 ```bash
 docker ps -a
 ```
-![](./assets/4.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401030947724.png)
 
 ### 停止容器
 通过上面的命令，可以找到`sanmu-nginx`的`container id`，我们可以使用这个`id`来停止我们的容器

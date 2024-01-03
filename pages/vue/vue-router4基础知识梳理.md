@@ -98,11 +98,11 @@ createApp(App).use(router).mount('#app');
 
 访问页面url：[`http://localhost:5173/#/login`](http://localhost:5173/#/login)，即可看到。
 
-![Untitled](vue3-router4%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86%204e5475c7d2a74e99ab6f99378b96bc06/Untitled.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031245182.png)
 
 页面中的`Login`和`Registry`都是可以点击的。当我们点击`Registry`之后，会跳转到`[http://localhost:5173/#/registry](http://localhost:5173/#/registry)`。
 
-![Untitled](vue3-router4%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86%204e5475c7d2a74e99ab6f99378b96bc06/Untitled%201.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031247217.png)
 
 通过上面的例子，我们完整演示了如何引入vue路由以及如何使用它。
 
@@ -125,7 +125,7 @@ location.hash
 
 当我们跳转到某个页面后，可以通过浏览器的返回按钮回到之前的页面
 
-![Untitled](vue3-router4%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86%204e5475c7d2a74e99ab6f99378b96bc06/Untitled%202.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031247035.png)
 
 这里的操作，触发了 `hashchange`事件，我们在控制台给window创建该事件
 
@@ -135,7 +135,7 @@ window.addEventListener('hashchange',(e) => {console.log(e)})
 
 点击返回按钮，则会获得如下内容
 
-![Untitled](vue3-router4%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86%204e5475c7d2a74e99ab6f99378b96bc06/Untitled%203.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031245170.png)
 
 ### createWebHistory
 
@@ -155,7 +155,7 @@ window.addEventListener('popstate',(e)=> {console.log(e)})
 
 在点击返回按钮，则会触发如下内容
 
-![Untitled](vue3-router4%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86%204e5475c7d2a74e99ab6f99378b96bc06/Untitled%205.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031245172.png)
 
 如果想手动跳转到某个页面，通过`pushState`方法。我们在控制台输入如下代码
 
@@ -253,7 +253,7 @@ const toLink = (path: string) => {
 </script>
 ```
 
-![Untitled](vue3-router4%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86%204e5475c7d2a74e99ab6f99378b96bc06/Untitled%206.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031245173.png)
 
 接下来，我们需要通过 `useRoute` 到 `registry` 页面获取。
 
@@ -272,7 +272,7 @@ console.log(route.query);
 
 当我们点击`button`之后，可以看到我们的`url`和控制台都有对应的参数了
 
-![Untitled](vue3-router4%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86%204e5475c7d2a74e99ab6f99378b96bc06/Untitled%207.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031245174.png)
 
 ### params
 
@@ -300,7 +300,7 @@ const toLink = (path: string) => {
 
 这样当我们点击按钮之后，显示的结果如下。
 
-![Untitled](vue3-router4%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86%204e5475c7d2a74e99ab6f99378b96bc06/Untitled%208.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031245175.png)
 
 这里要注意：
 
@@ -315,7 +315,7 @@ const toLink = (path: string) => {
 
 在这种情况下，右侧内容区域的`URL`就是嵌套在左侧导航栏所属页面的`URL`下。
 
-![Untitled](vue3-router4%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86%204e5475c7d2a74e99ab6f99378b96bc06/Untitled%209.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031245176.png)
 
 修改我们的`routes`对象，然后增加，增加一个`home`的导航，并且之前的`login`和`registry`都是`children`属性下的值，同时我们将`path`的`/`去掉
 
@@ -356,19 +356,19 @@ const routes: RouteRecordRaw[] = [
 
 我们访问[`http://localhost:5173/home`](http://localhost:5173/home)，可以单独显示nav组件的内容
 
-![Untitled](vue3-router4%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86%204e5475c7d2a74e99ab6f99378b96bc06/Untitled%2010.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031245177.png)
 
 然后在点击`login`和`registry`的button，就可以跳转到对应的内容了
 
-![Untitled](vue3-router4%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86%204e5475c7d2a74e99ab6f99378b96bc06/Untitled%2011.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031245178.png)
 
-![Untitled](vue3-router4%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86%204e5475c7d2a74e99ab6f99378b96bc06/Untitled%2012.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031245179.png)
 
 还记得我们前面讲`routes`下面的`path:'/login'`换成了`path:'login'`。只有这样，我们才能将`login`和`registry`放到如图所示的`home`之后。
 
 直接访问`/login`，显示的白板，因为找不到
 
-![Untitled](vue3-router4%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86%204e5475c7d2a74e99ab6f99378b96bc06/Untitled%2013.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031245180.png)
 
 现在我们将path改回来
 
@@ -382,7 +382,7 @@ const routes: RouteRecordRaw[] = [
 
 我们通过[`http://localhost:5173/login`](http://localhost:5173/login)
 
-![Untitled](vue3-router4%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%A2%B3%E7%90%86%204e5475c7d2a74e99ab6f99378b96bc06/Untitled%2014.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401031245181.png)
 
 **结论，`path`没有`/`，相当于是基于父路由的相对路由，如果加上了`/`那么就是自己绝对路由，不受父路由控制了。**
 
@@ -399,7 +399,6 @@ const routes = [
     redirect: '/home',
   },
 ]
-
 ```
 
 上面的代码中，当用户访问 `/` 时，自动跳转到 `/home`。
@@ -414,7 +413,6 @@ const routes = [
     alias: '/company',
   },
 ]
-
 ```
 
 上面的代码中，访问 `/about` 和 `/company` 都会渲染 `About` 组件。

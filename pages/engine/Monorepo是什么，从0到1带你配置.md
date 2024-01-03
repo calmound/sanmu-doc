@@ -6,7 +6,7 @@
 
 如下图所示，左侧我们把不同功能的项目放到了多个仓库中，这就是`Multirepo`。将其聚合在一个仓库中即为`Monorepo`。
 
-![Untitled](Monorepo%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%8C%E4%BB%8E0%E5%88%B01%E5%B8%A6%E4%BD%A0%E9%85%8D%E7%BD%AE%20a2f6d87d850042d49441b99cc1d76ad1/Untitled.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401030951499.png)
 
 # 为什么使用Monorepo
 
@@ -49,7 +49,7 @@
 
 所以，将`utils`抽离成`npm`库，并且和我们的两个`vue`项目组成`menorepo`很适合。
 
-![Untitled](Monorepo%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%8C%E4%BB%8E0%E5%88%B01%E5%B8%A6%E4%BD%A0%E9%85%8D%E7%BD%AE%20a2f6d87d850042d49441b99cc1d76ad1/Untitled%201.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401030951492.png)
 
 ## 安装pnpm
 
@@ -115,7 +115,7 @@ pnpm create vue@latest
 
 一个项目，名称叫h5-vue，另一个叫web-vue，剩下的内容全部选no，即可得到如下
 
-![Untitled](Monorepo%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%8C%E4%BB%8E0%E5%88%B01%E5%B8%A6%E4%BD%A0%E9%85%8D%E7%BD%AE%20a2f6d87d850042d49441b99cc1d76ad1/Untitled%202.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401030951493.png)
 
 ### 创建utils项目
 
@@ -127,7 +127,7 @@ pnpm create vite
 
 名称为uitls，然后分别选择vue，JavaScript
 
-![Untitled](Monorepo%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%8C%E4%BB%8E0%E5%88%B01%E5%B8%A6%E4%BD%A0%E9%85%8D%E7%BD%AE%20a2f6d87d850042d49441b99cc1d76ad1/Untitled%203.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401030951494.png)
 
 进入到`h5-vue/web-vue`。执行`pnpm install`安装依赖。
 
@@ -174,7 +174,7 @@ pnpm add @sanmu/utils
 "@sanmu/utils": "workspace:^0.0.0",
 ```
 
-![Untitled](Monorepo%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%8C%E4%BB%8E0%E5%88%B01%E5%B8%A6%E4%BD%A0%E9%85%8D%E7%BD%AE%20a2f6d87d850042d49441b99cc1d76ad1/Untitled%204.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401030951495.png)
 
 > 因为这个`workspace`这个关键字，pnpm`在`就会从你配置的`workspace`里查找，而不是从`npm`仓库。
 > 
@@ -194,7 +194,7 @@ const ans = sum(1, 2);
 
 页面的结果如下，也代表着我们的`sum`方法引入成功
 
-![Untitled](Monorepo%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%8C%E4%BB%8E0%E5%88%B01%E5%B8%A6%E4%BD%A0%E9%85%8D%E7%BD%AE%20a2f6d87d850042d49441b99cc1d76ad1/Untitled%205.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401030951496.png)
 
 在`web-vue`项目下，将上面的步骤重新操作一遍
 
@@ -239,7 +239,7 @@ pnpm是默认按照拓扑排序的，
 
 我们的项目vue项目依赖utils项目，所以打包也应该是utils先打包，然后在打包vue项目，然后更新vue的版本
 
-![Untitled](Monorepo%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%8C%E4%BB%8E0%E5%88%B01%E5%B8%A6%E4%BD%A0%E9%85%8D%E7%BD%AE%20a2f6d87d850042d49441b99cc1d76ad1/Untitled%207.png)
+![](https://assets-1256443293.cos.ap-beijing.myqcloud.com/article/202401030951498.png)
 
 可以看到这里的打包顺序确实如此。
 

@@ -1,0 +1,149 @@
+{
+  "main": {
+    "id": "2d6c970e0efbdba4",
+    "type": "split",
+    "children": [
+      {
+        "id": "e33279f1bc700733",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "867bd6f5c5a84850",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5e59b7d66f5ca1ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "fbc05ec30dd62c0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f6e139cf5b9effd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "46f03ded98e37926",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f0f20e918af7a5fd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "31566072195c6eaf",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c73ed5c165bd52b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f8549f0bd35dd3b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ff85931ae3ef4aff",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "09f370ef4ffbd855",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "27e073c44b1c9155",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "867bd6f5c5a84850",
+  "lastOpenFiles": [
+    "pages/other/window 无法启动 docker desktop.md.md",
+    "pages/other/window 无法启动 docker desktop/window 无法启动 docker desktop.md.md",
+    "pages/antd/assets/Pasted image 20240103094320.png"
+  ]
+}
