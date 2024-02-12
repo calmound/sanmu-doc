@@ -82,11 +82,11 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
             //   type: 'docsVersionDropdown',
             //   position: 'right',
             // },
-            {
-              href: 'https://github.com/algolia/docsearch',
-              position: 'right',
-              className: 'header-github-link',
-            },
+            // {
+            //   href: 'https://github.com/algolia/docsearch',
+            //   position: 'right',
+            //   className: 'header-github-link',
+            // },
           ],
         },
         colorMode: {
