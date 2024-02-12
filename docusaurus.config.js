@@ -38,6 +38,10 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
           theme: {
             customCss: require.resolve('./src/css/custom.css'),
           },
+          googleAnalytics: {
+            trackingID: 'G-H7DY046LV7',
+            anonymizeIP: true,
+          },
         }),
       ],
     ],

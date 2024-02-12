@@ -1,3 +1,7 @@
 # 安装
 
-npm i
+yarn
+
+# 运行
+
+yarn start
